@@ -1,7 +1,7 @@
 <template>
     <div>
         <button @click="pobierzWpisy">Click Me!</button>
-        siema blog
+        Siema blog !
         {{ wpisy }}
         <input type="text" v-model="nowyBlog">
         <button @click="dodajWpis">Dodaj</button>
